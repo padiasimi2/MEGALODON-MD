@@ -8,11 +8,11 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~Ec5AkIDD#7bnzFXei_-E841i9KhuZw0t7pkKlhzWupt00vko-_vQ",
-// add your Session Id INCONNU~XD~Ec5AkIDD#7bnzFXei_-E841i9KhuZw0t7pkKlhzWupt00vko-_vQ
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~QERjETJZ#AK_fy_QvQTfXonPwTYMIm2n0TIQarefJzb6gg5T0Ua8",
+// add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
  //make true if you want auto sticker   
