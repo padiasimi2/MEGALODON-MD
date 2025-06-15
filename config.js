@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~sMA2DThY#M46dJyAWHq6bjwIqu8q7Q2A_Xjnomzkb9PWh-a0Xyro",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~xIwQmTTD#4S9Q5CxF9bk8lwRF2ZJZrNR4sDN5yQ22L_d9o7Zp87o",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -16,7 +16,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
  //make true if you want auto sticker   
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "* bonjour pour avoir le bot contact +237695752818*",
 // set the auto reply massage on status reply  
